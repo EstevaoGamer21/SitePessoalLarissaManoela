@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+    background-color: rgb(149, 0, 255);    
+}
+.menu {
+    list-style-type: style none;
+    position: fixed;
+    top: 10px;
+    background: rgb(255, 213, 0);
+    margin-top: 0px;
+    z-index: 10px;
+    cursor: pointer;
+}
+
+.Perfil {
+    border-radius: 50%;
+}
+
+.links:hover{
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+.links {
+    float: center;
+    padding-top: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+}
+#BemVindos {
+    position: absolute;
+    bottom:0;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+#name {
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+}
